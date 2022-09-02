@@ -1,52 +1,101 @@
-# Undercooked
+Frentasma
+A play on the word fren and spanish word for ghost (fantasma)
 
-_A fan-made vertical slice_
+Game
+The foundation of this game demo / proof of concept is forked from the fan-made vertical slice **Undercooked** made by https://daltonlima.com/, based on the popular cooking game franchise **Overcooked**
 
-_**Youtube Video**_
-[![Undercooked](https://img.youtube.com/vi/oFFEIDPF9XE/0.jpg)](https://www.youtube.com/watch?v=oFFEIDPF9XE)
+Encourages / focused around cooperative play
+NFTs with similar traits/attributes while playing together will give each other even more bonuses
+NFTs can bond with one another by playing together in games
 
-_**Disclaimer:** Undercooked is a fan-made game, inspired by one of my favorite franchises: Overcooked, an amazing couch-coop game.
-All assets were created from scratch by me. This project doesn’t have any commercial goals or any legal affiliation with the original game or company.
-This project is meant only as a fun and challenging exercise of recreating a proven game without worrying about game design, focusing on programming and art creation, forcing myself out of “tutorial-hell”._
+NFTs
+Frentasmas are ghost type creatures that thrive on frenship <3
 
-## Game concept
+Sign
+An NFTs’ sign is randomly assigned during minting. The sign indicates its unusual skill that can be used during play (listed below, each has a specified limited amount of times they can be cast during play). Signs also help determine whether NFTs will get along with each other better or not based on each others’ signs (note: there are some outliers!, randomized). Certain day(s) will give sign(s) extra benefits (balanced but randomized?)
 
-In Undercooked, we have to process ingredients (chop & cook), mount them into plates, and finally serve the orders as they pop out as fast as you can, thus earning more points.
+1 - Can give their partner a movement speed bonus when cast
+2 - Can give their partner a temporary action speed bonus when cast
+3 - Can teleport / switch spots with their partner when cast 
+4 - Can emit water to put out fires
+5 - Has a higher chance to get extra tips on orders
+6 - Has higher chance of orders with high patience rating
 
-More complexity arises from twists on the levels, like physically separating parts of the kitchen or adding obstacles, different recipes, and processes.
-Still, for this project, I set a clear goal to keep the scope small by building all the core mechanics to have a tight game loop using just one level.
+Backgrounds
+Tombstones / Backgrounds are randomly assigned during minting. Tombstones give coin/xp earning multipliers during gameplay. Each tombstone has a short funny epitaph regarding the NFTs death. Each death / epitaph is unique. RIP
 
-## Core mechanics
+Common - x1
+Strange - x2
+Extraordinary - x3
+Unfathomable - x4
 
-* Selection of `Interactables` based on a mix of _proximity_ and _orientation_.
-* **Pick/Drop** items base on the context.
-* Raw ingredients from their crates.
-* Chop items.
-* Cooking Pan, with burning and cooking timers.
-* Delivering (and evaluating of) plates.
-* Player control can be swapped between two independent avatars.
-* **_Player movement and actions carefully recreated_** the feel are very of the original game.
-* Trash
-* Sink
-* Orders Panel, with an animated UI
+Appearance
+An NFT’s appearance are traits that cannot be changed. 
+Eye Shape
+1
+2
+3
+4
+5
+6
+Base Eye Color
+1
+2
+3
+4
+5
+6
+Mouth
+1
+2
+3
+4
+5
+6
+Body
+1
+2
+3
+4
+5
+6
+Hands
+1
+2
+3
+4
+5
+6
+Tail 
+1
+2
+3
+4
+5
+6
+Apparel
+An NFT’s apparel are traits that can be changed, added or removed. NFTs can come with apparel. Apparel can be bought, earned in games, given/received as gifts. Each trait gives the NFT a small special skill that is used during gameplay. Matching types of apparel will boost those skills.
+Hat / Headgear
+1
+Cosmetic Eye Color
+1
+Body Color Dye
+1
+Eyewear
+1
+Hand Item
+1
+Ghost Particle Trail
+1
+Lick-on Tattoo
+1 
 
-## Interesting points
+Items/Gifts
+Items can be earned in games, events or purchased in the marketplace. They can be used directly on NFTs, sold, given as gifts or used in-game.
 
-* **Asynchronous programming** in conjunction with Coroutines.
-* `IPickable` interface and `Interactable` Abstract class
-* Extensive use of [Pattern Matching](https://docs.microsoft.com/en-us/dotnet/csharp/pattern-matching) to handle the interaction between items.
-* Use of the new (event-based) Unity Input System, allowing a seamless change between the keyboard and different brands of controllers.
-* Several Particle Systems: smoke, steam, dust, stars.
-* Use of a personal Unity Package
-* Some shaders in Shader Graph
+Relationship Bonds
+NFTs with the highest bond relationships can be matched together- matching them together makes something mysterious happen~~~~ Relationship bonds can be raised by:
 
-## Tools
-
-* **Unity** 2020.2 Beta
-* Autodesk **Maya**, Adobe **Photoshop** and **Illustrator**.
-
-## Auxiliary tools
-
-* Cameras powered by [CineMachine](https://docs.unity3d.com/Packages/com.unity.cinemachine@2.6/manual/index.html)
-* UI animation using [LeanGUI](http://carloswilkes.com/Documentation/LeanGUI) and [LeanTransition](http://carloswilkes.com/Documentation/LeanTransition)
-* [FBX Exporter](https://docs.unity3d.com/Packages/com.unity.formats.fbx@2.0/manual/index.html) - makes it easy to send geometry and animation to any application that supports FBX and back again with minimal effort.
+Spending time together in designated areas together while the player(s) are away (could be similar to the third party contracts that pet owners Aavegotchis periodically for ghst token)
+Playing games or participating in events together
+Giving gifts
